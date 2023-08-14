@@ -1,0 +1,44 @@
+body{
+    background-color:aliceblue;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Temperature-convertor{
+    background-color:white;
+    border-radius:5px;
+}
+.heading-name{
+    text-align: center;
+    margin:2rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+.input-type,.input,.result{
+    margin:2rem 1rem;
+    font-size: 1.6rem;
+    color:#555;
+}
+#input-type,#unit-input,#result{
+    outline: none;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    margin-left:0.5rem;
+    text-align:center;
+    font-size: 1.5rem;
+}
+#convert{
+    margin-left:25%;
+    margin-bottom:1rem;
+    font-size: 1.5rem;
+    color:#555;
+}
+#reset{
+    margin-left:1.7rem;
+    font-size: 1.5rem;
+    color:#555;
+}
