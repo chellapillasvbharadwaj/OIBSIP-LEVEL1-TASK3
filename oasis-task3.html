@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet" type="text/css" href="oasis-task3.css">
+</head>
+<body>
+    <div class="Temperature-convertor">
+        <div class="heading-name">
+             Temperature Convertor
+        </div>
+        <div class="input-type">
+            <label for="input-type">Input</label>
+            <select name="input-type" id="input-type">
+                <option id="option1" value="Celsius">Celsius</option>
+                <option id="option2" value="Farhenheit">Farhenheit</option>
+            </select>
+        </div>
+        <div class="input">
+             <label for="unit-input" id="unit-input-label">Celsius (In degrees)</label>
+             <input type="number" name="unit-input" id="unit-input">
+        </div>
+        <div class="result">
+            <label for="result">Result</label>
+            <input type="number" name="result" id="result"><span id="unit">&deg;F</span>
+        </div>
+        <button type="button" id="convert">Convert</button>
+        <button type="button" id="reset">Reset</button>
+    </div>
+    <script src="oasis-task3.js"></script>
+</body>
+</html>
